@@ -1,0 +1,98 @@
+body {
+    background-color: white;
+    color: black;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    margin: 0;
+}
+
+.btn :hover {
+    background-color: greenyellow;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #fff;
+    background-color: darkgrey;
+    text-decoration: none;
+}
+
+a:focus {
+    color: #fff;
+    background-color: darkgrey;
+    text-decoration: none;
+}
+
+span {
+    color: green;
+    text-decoration: none;
+}
+
+#barras {
+    border-radius: 4px;
+    color: #fff;
+    display: block;
+    font-size: 25px;
+    height: 45px;
+    line-height: 1.5;
+    padding: 6px 12px;
+    transition: border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s;
+    vertical-align: middle;
+    width: 100%;
+}
+
+#add {
+    margin-top: 8px;
+    height: 25px;
+}
+
+#user {
+    margin-top: 8px;
+    height: 25px;
+}
+
+#nav-down {
+    border-color: green;
+    border-radius: 5px;
+    margin-left: -98px;
+}
+
+#novo {
+    text-align: center;
+    margin-top: 12px;
+    margin-left: 4px;
+    margin-right: 4px;
+}
+
+#usuarios {
+    text-align: center;
+    margin-top: 12px;
+    margin-left: 4px;
+    margin-right: 4px;
+}
+
+#rodape {
+    text-align: center;
+    margin-top: 600px;
+}
+
+#home {
+    margin-right: 12px;
+}
+
+#home:hover {
+    background-color: green;
+}
+
+#home:focus {
+    background-color: green;
+}
+
+.gerenciar-add:hover {
+    background-color: #fff;
+}
